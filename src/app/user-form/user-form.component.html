@@ -1,1 +1,4 @@
-<p>user-form works!</p>
+<form class="form-inline active-cyan-4">
+    <input type="text" placeholder="Search" name="searchUser" [(ngModel)]="searchUser" (onkeyup)='search()'>
+    <button class="btn btn-outline-success" (click)="search()"> <i class="fa fa-search" aria-hidden="true"></i> Search</button>
+</form>
