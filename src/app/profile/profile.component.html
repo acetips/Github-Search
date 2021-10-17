@@ -1,1 +1,7 @@
-nkb
+<form class="searchbox">
+    Find User <input class='Search'type='text' [(ngModel)]='userName' name= 'userName' (keyup)='searchProfile()' placeholder="Enter Github Username..">
+    <button>Search</button>
+</form>
+<h3>Username: {{profile.login}}</h3>
+<p>Name:{{profile.name}}</p>
+<p>Followers:{{profile.followers}}</p>

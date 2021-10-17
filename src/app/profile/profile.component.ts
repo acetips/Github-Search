@@ -8,13 +8,24 @@ import { ProfileService } from '../services/profile/profile.service';
 })
 export class ProfileComponent implements OnInit {
 
+  profile: any;
+  repositories: any;
+  userName: any = '';
+
   constructor(private profileService: ProfileService) { 
-    this.profileService.getUserInfo().then((profile)=>{
-      console.log(profile);
-    });
+    
   }
 
   ngOnInit(): void {
+    this.searchProfile()
   }
 
+  searchProfile(){
+    this.profileService.newProfile(this.userName);
+
+    this.profileService.getUserDetails().then(profile =>{
+      console.log(profile);
+      this.profile = profile;
+    });
+  }
 }
