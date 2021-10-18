@@ -27,8 +27,6 @@ export class ProfileComponent implements OnInit {
       console.log(profile);
       this.profile = profile;
     });
-    this.profileService.getUserRepositories().then(repository=>{
-      this.repositories = repository;
-    })
+
   }
 }

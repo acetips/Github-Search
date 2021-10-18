@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProfileService } from '../services/profile/profile.service';
 
 @Component({
   selector: 'app-rep',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RepComponent implements OnInit {
 
-  constructor() { }
+  repositories: any;
+  userName = ''
+  constructor(private profileService:ProfileService) { }
+
+  searchRepos ( ){
+    this.profileService.newRepos(this.userName)
+    this.profileService.getUserRepositories().then(repository=>{
+      this.repositories = repository;
+    })
+  }
 
   ngOnInit(): void {
+    this.searchRepos();
   }
 
 }

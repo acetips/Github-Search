@@ -9,6 +9,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { HighlightDirective } from './highlight.directive';
 import { NavComponent } from './nav/nav.component';
 import { RepComponent } from './rep/rep.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { RepComponent } from './rep/rep.component';
     HighlightDirective,
     NavComponent,
     RepComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
