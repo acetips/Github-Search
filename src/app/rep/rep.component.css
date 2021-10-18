@@ -28,10 +28,18 @@ input{
     font-weight: 900;
 }
 h2{
-    color: blue;
+    color: black;
+    text-align: center;
 }
 form p{
     font-size: 20px;
     color: white;
     
+}
+div p{
+    text-align: center;
+    font-size: 20px;
+    background-color: skyblue;
+    width: 60%;
+    margin-left: 20%;
 }
