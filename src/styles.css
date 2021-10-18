@@ -1,5 +1,13 @@
-*{
+h1{
+    position: relative;
+    text-align: center;
+    border-top: 10rem;
+    color: yellow;
+    margin-left: -25rem;
+}
+form{
     background-image: url(https://cdn.wallpapersafari.com/1/17/ZMBC10.jpg);
+    background-size: 40em; 
     background-repeat: no-repeat;
 }
 #formstyle{
@@ -7,13 +15,17 @@
     font-size: 2rem;
     font-weight: 900;
     padding: 20rem;
-    padding-left: 30rem;
+    padding-left: 20rem;
     padding-top: 10rem;
-}input{
+}
+input{
     height: 30px;
     border-top: 20rem;
 }
 ::placeholder{
     color: white;
     font-weight: 900;
+}
+h2{
+    color: blue;
 }

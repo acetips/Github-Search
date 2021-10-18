@@ -1,7 +1,9 @@
 <form id="formstyle" class="form-group form-group-lg">
-    <span appHighlight>Find User <input class='Search'type='text' [(ngModel)]='userName' name= 'userName' (keyup)='searchProfile()' placeholder="Enter Github Username.."></span>
+    <h1>Github Search</h1>
+    <span appHighlight>Enter Github Username <input class='Search'type='text' [(ngModel)]='userName' name= 'userName' (keyup)='searchProfile()' placeholder="Enter Github Username.."></span>
 </form>
 <h3>Username: {{profile.login}}</h3>
+<img [src]="profile.avatar_url">
 <p>Name:{{profile.name}}</p>
 <p>Followers:{{profile.followers}}</p>
 
