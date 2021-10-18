@@ -1,9 +1,19 @@
 *{
-    background-color: lightgray;
-    background-image: url(https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/1/17/ZMBC10.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
 }
-form{
-    width: 100rem;
+#formstyle{
+    width: 80%;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 20rem;
+    padding-left: 30rem;
+    padding-top: 10rem;
+}input{
+    height: 30px;
+    border-top: 20rem;
+}
+::placeholder{
+    color: white;
+    font-weight: 900;
 }
