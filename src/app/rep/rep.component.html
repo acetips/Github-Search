@@ -5,7 +5,7 @@
 </form>
 <div>
     <div *ngFor = 'let details of repositories'>
-        <h2>{{details.name}}</h2>
+        <h2>{{details.name|casing}}</h2>
         <p>{{details.description}}</p>
     </div>
 </div>
