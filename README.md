@@ -24,7 +24,8 @@ https://acetips.github.io/Github-Search/
 ## BEHAVIOUR DRIVEN DEVELOPMENT
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
-|  Enter a user name |   acetips |    Followers, profile picture, repositories |
+|  Enter a user name in the profiles page |   acetips |    Profile picture, name, number of followers |
+|  Enter a user name in the repositories page |   acetips |  User repositories |
 
 ## Support and contact details
 For any verification or support please contact me through [emelda.perez@students.moringaschool.com]
