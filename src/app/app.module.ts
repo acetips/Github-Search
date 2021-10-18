@@ -10,6 +10,7 @@ import { HighlightDirective } from './highlight.directive';
 import { NavComponent } from './nav/nav.component';
 import { RepComponent } from './rep/rep.component';
 import { HomeComponent } from './home/home.component';
+import { CasingPipe } from './casing.pipe';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HomeComponent } from './home/home.component';
     NavComponent,
     RepComponent,
     HomeComponent,
+    CasingPipe,
   ],
   imports: [
     BrowserModule,
